@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-18T19:39:48 IST" name="Default suite" finished-at="2023-12-18T19:39:50 IST" duration-ms="2409">
+    <groups>
+    </groups>
+    <test started-at="2023-12-18T19:39:48 IST" name="Default test" finished-at="2023-12-18T19:39:50 IST" duration-ms="2409">
+      <class name="SeleniumJavaProject.product">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:SeleniumJavaProject.product@5af5def9]" started-at="2023-12-18T19:39:48 IST" name="BeforeTest" finished-at="2023-12-18T19:39:50 IST" duration-ms="1960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="Login()[pri:0, instance:SeleniumJavaProject.product@5af5def9]" started-at="2023-12-18T19:39:50 IST" name="Login" finished-at="2023-12-18T19:39:50 IST" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- SeleniumJavaProject.product -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

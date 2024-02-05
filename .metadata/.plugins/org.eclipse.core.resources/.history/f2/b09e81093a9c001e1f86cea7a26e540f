@@ -1,0 +1,22 @@
+package SeleniumJavaProject;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import SeleniumJavaProject.pageObject.*;
+import SeleniumJavaProject.Utilities.DriverClass;
+import SeleniumJavaProject.Utilities.UtilitiesClass;
+
+public class product extends  UtilitiesClass  {
+	WebDriver driver = new ChromeDriver();
+	LoginPage loginPage = new LoginPage(driver);
+	@BeforeTest
+	public void BeforeTest() {
+		loginPage.url();
+	}
+	@Test
+	public void Login() {
+		
+			loginPage.loginApplication("satyajeetsenapati02@gmail.com", "satyaPIKUL@123");
+	}
+}
